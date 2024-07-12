@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "515838617442",
+    "firebase_url": "https://lsa-familia.firebaseio.com",
+    "project_id": "lsa-familia",
+    "storage_bucket": "lsa-familia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515838617442:android:8b5ddc5e0baf4bd63dee3b",
+        "android_client_info": {
+          "package_name": "com.proyectossolidarios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515838617442-nnpl9pqd3udr4inhp5es8t8hrhq2hbde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj1DyKHJ3nyQlSaYTGvUBxIYkPKQdAa8w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515838617442-nnpl9pqd3udr4inhp5es8t8hrhq2hbde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

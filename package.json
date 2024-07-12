@@ -1,0 +1,77 @@
+{
+  "name": "ProyectosSolidarios",
+  "version": "1.4.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "ios-build": "npx react-native link && npx react-native-fix-image && npx pod-install",
+    "ios-run": "npm run ios-build && npm run ios",
+    "ios-testflight": "npm run ios-build && cd ios && fastlane beta && cd ..",
+    "start": "react-native start",
+    "test": "jest",
+    "format": "prettier --write '**/*.js{,x}' --loglevel warn",
+    "lint": "yarn format && yarn eslint . --fix",
+    "commit": "cz"
+  },
+  "dependencies": {
+    "@react-native-community/art": "^1.2.0",
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/picker": "^1.6.5",
+    "@react-native-firebase/analytics": "^7.1.8",
+    "@react-native-firebase/app": "^8.0.1",
+    "@react-navigation/bottom-tabs": "^5.6.1",
+    "@react-navigation/native": "^5.6.1",
+    "@react-navigation/stack": "^5.6.2",
+    "lodash": "^4.17.15",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-fix-image": "^2.1.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-i18n": "^2.0.15",
+    "react-native-progress": "^4.1.2",
+    "react-native-reanimated": "^1.13.4",
+    "react-native-safe-area-context": "^3.0.7",
+    "react-native-screens": "^2.9.0",
+    "react-native-vector-icons": "^7.0.0",
+    "react-native-video": "^4.4.5",
+    "react-native-webview": "^10.10.2",
+    "react-redux": "5.0.7",
+    "redux": "3.7.2",
+    "redux-devtools-extension": "2.13.2",
+    "uuid": "3.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/cli-platform-android": "^11.3.7",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@testing-library/jest-native": "^3.3.0",
+    "@testing-library/react-native": "^7.0.1",
+    "@types/jest": "^26.0.8",
+    "babel-jest": "^24.9.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-native/extend-expect"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "engines": {
+    "node": ">=14 <17"
+  }
+}

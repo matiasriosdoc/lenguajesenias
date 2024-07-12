@@ -1,0 +1,8 @@
+app_identifier("com.proyectossolidarios") # The bundle identifier of your app
+apple_id("lsa.hexacta@gmail.com") # Your Apple email address
+
+itc_team_id("121849040") # App Store Connect Team ID
+team_id("455RAW3KCJ") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

@@ -1,0 +1,750 @@
+El alfabeto
+	Alfabeto dactilológico
+	Aa
+	Bb
+	Cc
+	CHch
+	Dd
+	Ee
+	Ff
+	Gg
+	Hh
+	Ii
+	Jj
+	Kk
+	Ll
+	LLll
+	Mm
+	Nn
+	Ññ
+	Oo
+	Pp
+	Qq
+	Rr
+	Ss
+	Tt
+	Uu
+	Vv
+	Ww
+	Xx
+	Yy
+	Zz
+Presentándonos
+	Presentándonos
+	Sordo
+	Oyente
+	Saludos
+	Por favor
+	Hola
+	Chau
+	¿Cómo estás?
+	Buen
+	Mal
+	Buenos días
+	Buenas tardes
+	Buenas noches
+	Perdón
+	Apodo
+	Apellido
+	Nombre
+	Si
+	No
+	¿Qué dice?
+	Gracias
+	De nada
+	Permiso
+	Basta
+	¿Cuántos años tenés?
+	Por ejemplo
+	¿Qué?
+	¿Por qué?
+	¿Dónde?
+	¿Para qué?
+	¿Cuánto?
+	¿Quién?
+	¿Cómo?
+	¿Cuándo?
+	¿Cuál?
+La familia
+	La familia
+	Yo
+	Hermano
+	Hijo
+	Papá
+	Mamá
+	Primo
+	Abuelo
+	Tío
+	Amar
+	Besar
+	Reir
+	Abrazar
+	Casados
+	Juntos
+	Separados
+	Tuyo
+	Mío
+	Él / ella
+	Ellos / ellas
+	Vos
+	Nosotros
+	Hablar oral
+	Señar
+	Gritar
+	Comunicar
+	Llamar
+El calendario
+	Todos los días
+	Hoy
+	Ayer
+	Mañana
+	Semana
+	Lunes
+	Martes
+	Miercoles
+	Jueves
+	Viernes
+	Sábado
+	Domingo
+	Día
+	Mes
+	Año
+	Enero
+	Febrero
+	Marzo
+	Abril
+	Mayo
+	Junio
+	Julio
+	Agosto
+	Septiembre
+	Octubre
+	Noviembre
+	Diciembre
+	Verano
+	Pileta
+	Calor
+	Sol
+	Nadar
+	Otoño
+	Viento
+	Invierno
+	Nieve
+	Lluvia
+	Frío
+	Nublado
+	Primavera
+	Jardín
+	Flor
+¿Qué hora es?
+	¿Qué hora es?
+	Reloj
+	En punto
+	... y media
+	menos...
+	A veces
+	Siempre
+	Después
+	A la tarde
+	A la mañana
+	Hora
+	Minuto
+	Sagundo
+	Tarde
+	Temprano
+	Luna
+	Estrella
+	Café
+	Desayuno
+	Almuerzo
+	Merienda
+	Cena
+Los alimentos
+	Los alimentos
+	Hamburguesa
+	Sandwich
+	Salchicha
+	Sopa
+	Pollo
+	Milanesa
+	Asado
+	Empanada
+	Pizza
+	Sal
+	Azúcar
+	Verdura
+	Carne
+	Fruta
+	Pan
+	Arroz
+	Fideos
+	Leche
+	Huevo
+	Aceite
+	Agua
+	Queso
+	Manteca
+	Tomate
+	Caebolla
+	Zanahoria
+	Lechuga
+	Limón
+	Papa
+	Papas fritas
+	Uva
+	Manzana
+	Banana
+	Caramelo
+	Naranja
+	Chocolate
+	Helado
+	Mate
+	Té
+	Galletitas
+La casa
+	La casa
+	Living
+	Muebles
+	Ventildor
+	Ventana
+	Diario
+	Televisor
+	Control remoto
+	Puerta
+	Llave
+	Sentarse
+	Sofá
+	Tocar timbre
+	La cocina
+	Plato
+	Tenedor
+	Cuchara
+	Cuchillo
+	Pava
+	Servilleta
+	Cocinar
+	Está caliente
+	Conservar
+	Me gusta
+	No me gusta
+	Limpiar
+	Planchar
+	Lavar ropa
+	Silla
+	Mesa
+	Lavar los platos
+	Tener hambre
+	Tener sed
+	Barrer
+	Lavarropas
+	Cocina
+	Vaso
+	Tacho de basura
+	Heladera
+	Rico
+	Horno
+	Limpio
+	Sucio
+	Dulce
+	Salado
+	El dormitorio
+	Sábana
+	Frazada
+	Almohada
+	Cama
+	Dormir
+	Levantarse
+	Juguetes
+	Acostarse
+	Mesita de luz
+	Tener sueño
+	Llorar
+	Bebé
+	Placard
+	Ropa
+	Libro de cuentos
+	Leer
+	El baño
+	Espejo
+	Canilla
+	Ducha
+	Toalla
+	Jabón
+	Cepillar los dientes
+	Peinar
+	Ocupado
+	Lavarse las manos
+	Papel higiénico
+	Inodoro
+	Bañar
+La ropa
+	Vistiéndose
+	Bombacha
+	Pañal
+	Medias
+	Calzoncillo
+	Zapatos
+	Cambiarse la ropa
+	Guardar la ropa
+	Ponerse la ropa
+	Pantalón
+	Short
+	Pullover
+	Camisa
+	Remera
+	Pollera
+	Vestido
+	Ojotas
+	Campera
+El cumpleaños
+	La fiesta de cumpleaños
+	Torta
+	Globos
+	Vela
+	Música
+	Ruido
+	Cantar
+	Vibración
+	Sacar fotos
+	Filmar
+	Bailar
+	Jugo
+	Disfraz
+	Visitar
+	Aplaudir (sordos)
+	Aplaudir (oyentes)
+	Amigos
+	Payaso
+	Conocer
+	Ayudar
+	Regalar
+	Cuidar
+La escuela
+	La escuela
+	Aula
+	Explicar
+	Maestra
+	Enseñar
+	Alumnos
+	Entender
+	Volver
+	Ir
+	Preguntar
+	Contestar
+	No saber
+	Pensar
+	Olvidar
+	Recordar
+	Aburrido
+	Curioso
+	Interprete
+	Diccionario
+	Saber
+	Respetar
+	Tiza
+	Borrador
+	Pizarrón
+	Jardín de infrantes
+	No entender
+	Importante
+	Aprender
+	Inteligente
+	Estudiar
+	Compañero
+	Director
+	Distraído
+	No hacer caso
+	Travieso
+	Portarse mal
+	Obedecer
+	Biblioteca
+	Faltar
+	Presente
+	Corregir
+	Grado
+	Haciendo la tarea
+	Cartuchera
+	Guardapolvo
+	Birome
+	Papel
+	Lápiz
+	Goma
+	Regla
+	Mochila
+	Sacapuntas
+	Tijera
+	Adhesivo escolar
+	Pegar
+	Escribir
+	Dibujar
+	Traer
+	Llevar
+	Buscar
+	Perder
+	Copiar
+	Necesitar
+	El recreo
+	Fútbol
+	Tobogán
+	Subir
+	Bajar
+	Tirar
+	Escondidas
+	Himno Nacional Argentino
+	Formar fila
+	Jugar
+	Pelota
+	Correr
+	Caer
+	Agarrar
+	Saltar la soga
+	Hamaca
+	Izar la bandera
+	Las materias
+	Matemática
+	Lengua
+	Ciencia
+	Educación física
+	Historia
+	División
+	Multiplicación
+	Suma
+	Resta
+	Total
+Los colores
+	Los colores
+	Azul
+	Verde
+	Rojo
+	Amarillo
+	Celeste
+	Marrón
+	Rosa
+	Naranja
+	Violeta
+	Gris
+	Negro
+	Claro
+	Oscuro
+	Blanco
+La tecnología
+	La tecnología
+	Computadora
+	Calculadora
+	Impresora
+	Mouse
+	Internet
+	Celular
+	Fotocopiar
+	Teléfono
+	Película
+	DVD
+Los números
+	Los números
+	Uno
+	Dos
+	Tres
+	Cuatro
+	Cinco
+	Seis
+	Siete
+	Ocho
+	Nueve
+	Diez
+	Once
+	Doce
+	Trece
+	Catorce
+	Quince
+	Dieciseis
+	Diecisiete
+	Dieciocho
+	Diecinueve
+	Veinte
+	Treinta
+	Cuarenta
+	Cincuenta
+	Sesenta
+	Setenta
+	Ochenta
+	Noventa
+	Cien
+	Mil
+Paseando
+	Paseando
+	Persona
+	Policía
+	Plaza
+	Acompañar
+	Tren
+	Cine
+	Correo
+	Camión
+	Bicicleta
+	Bomberos
+	Almacen
+	Kiosco
+	Cruzar la calle
+	Moto
+	Supermercado
+	Comprar
+	Colectivo
+	Avión
+	Vender
+	Panadería
+	Subte
+	Fábrica
+	Ambulancia
+	Pagar
+	Negocio
+	Esquina
+	Banco
+	Auto
+	Puete
+	Restaurante
+Los sentimientos
+	Los sentimientos
+	Alegre
+	Contento
+	Asustado
+	Miedoso
+	Tímido
+	Cansado
+	Enojado
+	Caprichoso
+	Culpa
+	Tranquilo
+	Nervioso
+	Triste
+	Sorprendido
+El cuerpo humano
+	El cuerpo humano
+	Boca
+	Pelo
+	Nariz
+	Hombro
+	Diente
+	Codo
+	Rodilla
+	Mano
+	Nena
+	Vagina
+	Cara
+	Cabeza
+	Ojos
+	Lengua
+	Oreja
+	Cuello
+	Panza
+	Brazo
+	Pene
+	Pierna
+	Nene
+	Cola
+	Espalda
+	Dedo
+	Uña
+	Caminar
+	Oler
+	Oir
+	Tocar
+	Ver
+	El hospital
+	Médico
+	Revisar
+	Enfermera
+	Oculista
+	Hecar análisis
+	Psicólogo
+	Anteojos
+	Audífono
+	Dentista
+	Fonoaudióloga
+	Impante coclear
+	Guardia
+	Sacar radiografía
+La salud
+	La salud
+	Remedio
+	Curar
+	Respirar
+	Mejorar
+	Crecer
+	Dolor
+	Fiebre
+	Inyección
+	Termómetro
+	Enfermo
+	Vomitar
+	Sano
+	Lastimado
+	Mareado
+Los animales
+	El zoológico
+	Oso
+	Foca
+	Tortuga
+	Loro
+	Elefante
+	Ciervo
+	León
+	Mono
+	Víbora
+	Cocodrilo
+	Jirafa
+	Animales
+	del campo
+	Burro
+	Sapo
+	Gato
+	Ratón
+	Araña
+	Vaca
+	Caballo
+	Gallina
+	Conejo
+	Llama
+	Chancho
+	Cabra
+	Oveja
+	Pato
+El campamento
+	El campamento
+	Pasto
+	Tierra
+	Pez
+	Mariposa
+	Piedra
+	Cielo
+	Río
+	Pájaro
+	Linterna
+	Lago
+	Mosquito
+	Árbol
+	Perro
+	Carpa
+	Fuego
+	Montañas
+	Pescar
+	Bote
+Las profesiones
+	Profesionales
+	Abogado
+	Chofer
+	Electricista
+	Pintor
+	Chef
+	Carpintero
+	Plomero
+	Arquitecto
+	Trabajar
+	Arreglar
+	Materiales
+	Madera
+	Plástico
+	Metal
+La playa
+	La playa
+	Sombrilla
+	Gorro
+	Balde
+	Palita
+	Mella de mujer
+	Malla de hombre
+	Vacaciones
+	Mar
+	Arena
+	Barco
+Las diferencias
+	Las diferencias
+	Adentro
+	Afuera
+	Anciano
+	Joven
+	Poco
+	Mucho
+	Adelante
+	Atrás
+	Abajo
+	Arriba
+	Sobre
+	Apurado
+	Despacio
+	Alrededor
+	Al lado
+	Corto
+	Largo
+	Verdad
+	Mentira
+	Mojado
+	Seco
+	Entrada
+	Salida
+	Educado
+	Maleducado
+	Lindo
+	Feo
+	Diferente
+	Igual
+	Grande
+	Chico
+	Bueno
+	Malo
+	Antiguo
+	Nuevo
+	Fuerte
+	Débil
+	Cerca
+	Lejos
+	Pesado
+	Liviano
+	Blando
+	Duro
+	Alto
+	Bajo
+¿Dónde vivo?
+	Argentina
+	Tucumán
+	Salta
+	Chaco
+	Jujuy
+	Catamarca
+	La rioja
+	Formosa
+	Córdoba
+	San Juan
+	Mendoza
+	San Luis
+	Neuquén
+	Rio Negro
+	Islas Malvinas
+	Provincias
+	Tierra del fuego
+	Buenos Aires
+	Misiones
+	Corrientes
+	Entre Ríos
+	La Pampa
+	Santiago del Estero
+	Santa Fé
+	Santa Cruz
+	Chubut
+	Anatártida Argentina
+	Aborigen
+	Pueblo
+	Ciudad
+	Viajar
+	Vivir
+	Extranjero
+	Norte
+	Sur
+	Este
+	Oeste
+	Otros países
+	Mundo
+	Uruguay
+	Bolivia
+	Brasil
+	Paraguay
+	Chile

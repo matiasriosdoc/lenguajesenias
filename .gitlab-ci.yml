@@ -1,0 +1,14 @@
+before_script:
+  - yarn
+
+lint:
+  tags:
+    - node
+  script:
+    - npm run lint
+
+test:
+  tags:
+    - node
+  script:
+    - npm test

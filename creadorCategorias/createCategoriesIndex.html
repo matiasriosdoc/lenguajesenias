@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Creación del índice de categorías para la aplicación de DANE/Fundasor</h3>
+
+<p>Presionar el botón para crear imprimir el índice por consola.</p>
+
+<button onclick="createIndex()">Crear índice</button>
+
+<p id="demo"></p>
+
+<script>
+function createIndex() {
+  var categoriesRaw = "	Alfabeto dactilológico		\n"+
+"		Alfabeto dactilológico	\n"+
+"		Aa	\n"+
+"		Bb	\n"+
+"		Cc	\n"+
+"		CHch	\n"+
+"		Dd	\n"+
+"		Ee	\n"+
+"		Ff	\n"+
+"		Gg	\n"+
+"		Hh	\n"+
+"		Ii	\n"+
+"		Jj	\n"+
+"		Kk	\n"+
+"		Ll	\n"+
+"		LLll	\n"+
+"		Mm	\n"+
+"		Nn	\n"+
+"		Ññ	\n"+
+"		Oo	\n"+
+"		Pp	\n"+
+"		Qq	\n"+
+"		Rr	\n"+
+"		Ss	\n"+
+"		Tt	\n"+
+"		Uu	\n"+
+"		Vv	\n"+
+"		Ww	\n"+
+"		Xx	\n"+
+"		Yy	\n"+
+"		Zz	\n"+
+"	Presentándonos		\n"+
+"		Presentándonos	\n"+
+"		Sordo	\n"+
+"		Oyente	\n"+
+"		Saludos	\n"+
+"		Por favor	\n"+
+"		Hola	\n"+
+"		Chau	\n"+
+"		¿Cómo estás?	\n"+
+"		Bien	\n"+
+"		Mal	\n"+
+"		Buenos días	\n"+
+"		Buenas tardes	\n"+
+"		Buenas noches	\n"+
+"		Perdón	\n"+
+"		Seña personal	\n"+
+"		Apellido	\n"+
+"		Nombre	\n"+
+"		Si	\n"+
+"		No	\n"+
+"		¿Qué dice?	\n"+
+"		Gracias	\n"+
+"		De nada	\n"+
+"		Permiso	\n"+
+"		Basta	\n"+
+"		¿Cuántos años tenés?	\n"+
+"		Por ejemplo	\n"+
+"		¿Qué?	\n"+
+"		¿Por qué?	\n"+
+"		¿Dónde?	\n"+
+"		¿Para qué?	\n"+
+"		¿Cuánto?	\n"+
+"		¿Quién?	\n"+
+"		¿Cómo?	\n"+
+"		¿Cuándo?	\n"+
+"		¿Cuál?	\n"+
+"	La familia		\n"+
+"		La familia	\n"+
+"		Yo	\n"+
+"		Hermano	\n"+
+"		Hijo	\n"+
+"		Papá	\n"+
+"		Mamá	\n"+
+"		Primo	\n"+
+"		Abuelo	\n"+
+"		Tío	\n"+
+"		Amar	\n"+
+"		Besar	\n"+
+"		Reir	\n"+
+"		Abrazar	\n"+
+"		Casados	\n"+
+"		Juntos	\n"+
+"		Separados	\n"+
+"		Tuyo	\n"+
+"		Mío	\n"+
+"		Él / ella	\n"+
+"		Ellos / ellas	\n"+
+"		Vos	\n"+
+"		Nosotros	\n"+
+"		Hablar oral	\n"+
+"		Señar	\n"+
+"		Gritar	\n"+
+"		Comunicar	\n"+
+"		Llamar	\n"+
+"	El calendario		\n"+
+"		Todos los días	\n"+
+"		Hoy	\n"+
+"		Ayer	\n"+
+"		Mañana	\n"+
+"		Semana	\n"+
+"		Lunes	\n"+
+"		Martes	\n"+
+"		Miercoles	\n"+
+"		Jueves	\n"+
+"		Viernes	\n"+
+"		Sábado	\n"+
+"		Domingo	\n"+
+"		Día	\n"+
+"		Mes	\n"+
+"		Año	\n"+
+"		Enero	\n"+
+"		Febrero	\n"+
+"		Marzo	\n"+
+"		Abril	\n"+
+"		Mayo	\n"+
+"		Junio	\n"+
+"		Julio	\n"+
+"		Agosto	\n"+
+"		Septiembre	\n"+
+"		Octubre	\n"+
+"		Noviembre	\n"+
+"		Diciembre	\n"+
+"		Verano	\n"+
+"		Pileta	\n"+
+"		Calor	\n"+
+"		Sol	\n"+
+"		Nadar	\n"+
+"		Otoño	\n"+
+"		Viento	\n"+
+"		Invierno	\n"+
+"		Nieve	\n"+
+"		Lluvia	\n"+
+"		Frío	\n"+
+"		Nublado	\n"+
+"		Primavera	\n"+
+"		Jardín	\n"+
+"		Flor	\n"+
+"	¿Qué hora es?		\n"+
+"		¿Qué hora es?	\n"+
+"		Reloj	\n"+
+"		En punto	\n"+
+"		... y media	\n"+
+"		menos...	\n"+
+"		A veces	\n"+
+"		Siempre	\n"+
+"		Después	\n"+
+"		A la tarde	\n"+
+"		A la mañana	\n"+
+"		Hora	\n"+
+"		Minuto	\n"+
+"		Segundo	\n"+
+"		Tarde	\n"+
+"		Temprano	\n"+
+"		Luna	\n"+
+"		Estrella	\n"+
+"		Café	\n"+
+"		Desayuno	\n"+
+"		Almuerzo	\n"+
+"		Merienda	\n"+
+"		Cena	\n"+
+"	Los alimentos		\n"+
+"		Los alimentos	\n"+
+"		Hamburguesa	\n"+
+"		Sandwich	\n"+
+"		Salchicha	\n"+
+"		Sopa	\n"+
+"		Pollo	\n"+
+"		Milanesa	\n"+
+"		Asado	\n"+
+"		Empanada	\n"+
+"		Pizza	\n"+
+"		Sal	\n"+
+"		Azúcar	\n"+
+"		Verdura	\n"+
+"		Carne	\n"+
+"		Fruta	\n"+
+"		Pan	\n"+
+"		Arroz	\n"+
+"		Fideos	\n"+
+"		Leche	\n"+
+"		Huevo	\n"+
+"		Aceite	\n"+
+"		Agua	\n"+
+"		Queso	\n"+
+"		Manteca	\n"+
+"		Tomate	\n"+
+"		Cebolla	\n"+
+"		Zanahoria	\n"+
+"		Lechuga	\n"+
+"		Limón	\n"+
+"		Papa	\n"+
+"		Papas fritas	\n"+
+"		Uva	\n"+
+"		Manzana	\n"+
+"		Banana	\n"+
+"		Caramelo	\n"+
+"		Naranja	\n"+
+"		Chocolate	\n"+
+"		Helado	\n"+
+"		Mate	\n"+
+"		Té	\n"+
+"		Galletitas	\n"+
+"	La casa		\n"+
+"		La casa	\n"+
+"		Living	\n"+
+"		Muebles	\n"+
+"		Ventilador	\n"+
+"		Ventana	\n"+
+"		Diario	\n"+
+"		Televisor	\n"+
+"		Control remoto	\n"+
+"		Puerta	\n"+
+"		Llave	\n"+
+"		Sentarse	\n"+
+"		Sofá	\n"+
+"		Tocar timbre	\n"+
+"		La cocina	\n"+
+"		Plato	\n"+
+"		Tenedor	\n"+
+"		Cuchara	\n"+
+"		Cuchillo	\n"+
+"		Pava	\n"+
+"		Servilleta	\n"+
+"		Cocinar	\n"+
+"		Está caliente	\n"+
+"		Conservar	\n"+
+"		Me gusta	\n"+
+"		No me gusta	\n"+
+"		Limpiar	\n"+
+"		Planchar	\n"+
+"		Lavar ropa	\n"+
+"		Silla	\n"+
+"		Mesa	\n"+
+"		Lavar los platos	\n"+
+"		Tener hambre	\n"+
+"		Tener sed	\n"+
+"		Barrer	\n"+
+"		Lavarropas	\n"+
+"		Cocina	\n"+
+"		Vaso	\n"+
+"		Tacho de basura	\n"+
+"		Heladera	\n"+
+"		Rico	\n"+
+"		Horno	\n"+
+"		Limpio	\n"+
+"		Sucio	\n"+
+"		Dulce	\n"+
+"		Salado	\n"+
+"		El dormitorio	\n"+
+"		Sábana	\n"+
+"		Frazada	\n"+
+"		Almohada	\n"+
+"		Cama	\n"+
+"		Dormir	\n"+
+"		Levantarse	\n"+
+"		Juguetes	\n"+
+"		Acostarse	\n"+
+"		Mesita de luz	\n"+
+"		Tener sueño	\n"+
+"		Llorar	\n"+
+"		Bebé	\n"+
+"		Placard	\n"+
+"		Ropa	\n"+
+"		Libro de cuentos	\n"+
+"		Leer	\n"+
+"		El baño	\n"+
+"		Espejo	\n"+
+"		Canilla	\n"+
+"		Ducha	\n"+
+"		Toalla	\n"+
+"		Jabón	\n"+
+"		Cepillar los dientes	\n"+
+"		Peinar	\n"+
+"		Ocupado	\n"+
+"		Lavarse las manos	\n"+
+"		Papel higiénico	\n"+
+"		Inodoro	\n"+
+"		Bañar	\n"+
+"	La ropa		\n"+
+"		Vistiéndose	\n"+
+"		Bombacha	\n"+
+"		Pañal	\n"+
+"		Medias	\n"+
+"		Calzoncillo	\n"+
+"		Zapatos	\n"+
+"		Cambiarse la ropa	\n"+
+"		Guardar la ropa	\n"+
+"		Ponerse la ropa	\n"+
+"		Pantalón	\n"+
+"		Short	\n"+
+"		Pullover	\n"+
+"		Camisa	\n"+
+"		Remera	\n"+
+"		Pollera	\n"+
+"		Vestido	\n"+
+"		Ojotas	\n"+
+"		Campera	\n"+
+"	El cumpleaños		\n"+
+"		La fiesta de cumpleaños	\n"+
+"		Torta	\n"+
+"		Globos	\n"+
+"		Vela	\n"+
+"		Música	\n"+
+"		Ruido	\n"+
+"		Cantar	\n"+
+"		Vibración	\n"+
+"		Sacar fotos	\n"+
+"		Filmar	\n"+
+"		Bailar	\n"+
+"		Jugo	\n"+
+"		Disfraz	\n"+
+"		Visitar	\n"+
+"		Aplaudir (sordos)	\n"+
+"		Aplaudir (oyentes)	\n"+
+"		Amigos	\n"+
+"		Payaso	\n"+
+"		Conocer	\n"+
+"		Ayudar	\n"+
+"		Regalar	\n"+
+"		Cuidar	\n"+
+"	La escuela		\n"+
+"		La escuela	\n"+
+"		Mi aula	\n"+
+"		Explicar	\n"+
+"		Maestra	\n"+
+"		Enseñar	\n"+
+"		Alumnos	\n"+
+"		Entender	\n"+
+"		Volver	\n"+
+"		Ir	\n"+
+"		Preguntar	\n"+
+"		Contestar	\n"+
+"		No saber	\n"+
+"		Pensar	\n"+
+"		Olvidar	\n"+
+"		Recordar	\n"+
+"		Aburrido	\n"+
+"		Curioso	\n"+
+"		Interprete	\n"+
+"		Diccionario	\n"+
+"		Saber	\n"+
+"		Respetar	\n"+
+"		Tiza	\n"+
+"		Borrador	\n"+
+"		Pizarrón	\n"+
+"		Jardín de infantes	\n"+
+"		No entender	\n"+
+"		Importante	\n"+
+"		Aprender	\n"+
+"		Inteligente	\n"+
+"		Estudiar	\n"+
+"		Compañero	\n"+
+"		Director	\n"+
+"		Distraído	\n"+
+"		No hacer caso	\n"+
+"		Travieso	\n"+
+"		Portarse mal	\n"+
+"		Obedecer	\n"+
+"		Biblioteca	\n"+
+"		Faltar	\n"+
+"		Presente	\n"+
+"		Corregir	\n"+
+"		Grado	\n"+
+"		Haciendo la tarea	\n"+
+"		Cartuchera	\n"+
+"		Guardapolvo	\n"+
+"		Birome	\n"+
+"		Papel	\n"+
+"		Lápiz	\n"+
+"		Goma	\n"+
+"		Regla	\n"+
+"		Mochila	\n"+
+"		Sacapuntas	\n"+
+"		Tijera	\n"+
+"		Adhesivo escolar	\n"+
+"		Pegar	\n"+
+"		Escribir	\n"+
+"		Dibujar	\n"+
+"		Traer	\n"+
+"		Llevar	\n"+
+"		Buscar	\n"+
+"		Perder	\n"+
+"		Copiar	\n"+
+"		Necesitar	\n"+
+"		El recreo	\n"+
+"		Fútbol	\n"+
+"		Tobogán	\n"+
+"		Subir	\n"+
+"		Bajar	\n"+
+"		Tirar	\n"+
+"		Escondidas	\n"+
+"		Himno Nacional Argentino	\n"+
+"		Formar fila	\n"+
+"		Jugar	\n"+
+"		Pelota	\n"+
+"		Correr	\n"+
+"		Caer	\n"+
+"		Agarrar	\n"+
+"		Saltar la soga	\n"+
+"		Hamaca	\n"+
+"		Izar la bandera	\n"+
+"		Las materias	\n"+
+"		Matemática	\n"+
+"		Lengua	\n"+
+"		Ciencia	\n"+
+"		Educación física	\n"+
+"		Historia	\n"+
+"		División	\n"+
+"		Multiplicación	\n"+
+"		Suma	\n"+
+"		Resta	\n"+
+"		Total	\n"+
+"	Los colores		\n"+
+"		Los colores	\n"+
+"		Azul	\n"+
+"		Verde	\n"+
+"		Rojo	\n"+
+"		Amarillo	\n"+
+"		Celeste	\n"+
+"		Marrón	\n"+
+"		Rosa	\n"+
+"		Naranja	\n"+
+"		Violeta	\n"+
+"		Gris	\n"+
+"		Negro	\n"+
+"		Claro	\n"+
+"		Oscuro	\n"+
+"		Blanco	\n"+
+"	La tecnología		\n"+
+"		La tecnología	\n"+
+"		Computadora	\n"+
+"		Calculadora	\n"+
+"		Impresora	\n"+
+"		Mouse	\n"+
+"		Internet	\n"+
+"		Celular	\n"+
+"		Fotocopiar	\n"+
+"		Teléfono	\n"+
+"		Película	\n"+
+"		DVD	\n"+
+"	Los números		\n"+
+"		Los números	\n"+
+"		Uno	\n"+
+"		Dos	\n"+
+"		Tres	\n"+
+"		Cuatro	\n"+
+"		Cinco	\n"+
+"		Seis	\n"+
+"		Siete	\n"+
+"		Ocho	\n"+
+"		Nueve	\n"+
+"		Diez	\n"+
+"		Once	\n"+
+"		Doce	\n"+
+"		Trece	\n"+
+"		Catorce	\n"+
+"		Quince	\n"+
+"		Dieciseis	\n"+
+"		Diecisiete	\n"+
+"		Dieciocho	\n"+
+"		Diecinueve	\n"+
+"		Veinte	\n"+
+"		Treinta	\n"+
+"		Cuarenta	\n"+
+"		Cincuenta	\n"+
+"		Sesenta	\n"+
+"		Setenta	\n"+
+"		Ochenta	\n"+
+"		Noventa	\n"+
+"		Cien	\n"+
+"		Mil	\n"+
+"	Paseando		\n"+
+"		Paseando	\n"+
+"		Persona	\n"+
+"		Policía	\n"+
+"		Plaza	\n"+
+"		Acompañar	\n"+
+"		Tren	\n"+
+"		Cine	\n"+
+"		Correo	\n"+
+"		Camión	\n"+
+"		Bicicleta	\n"+
+"		Bomberos	\n"+
+"		Almacen	\n"+
+"		Kiosco	\n"+
+"		Cruzar la calle	\n"+
+"		Moto	\n"+
+"		Supermercado	\n"+
+"		Comprar	\n"+
+"		Colectivo	\n"+
+"		Avión	\n"+
+"		Vender	\n"+
+"		Panadería	\n"+
+"		Subte	\n"+
+"		Fábrica	\n"+
+"		Ambulancia	\n"+
+"		Pagar	\n"+
+"		Negocio	\n"+
+"		Esquina	\n"+
+"		Banco	\n"+
+"		Auto	\n"+
+"		Puente	\n"+
+"		Restaurante	\n"+
+"	Los sentimientos		\n"+
+"		Los sentimientos	\n"+
+"		Alegre	\n"+
+"		Contento	\n"+
+"		Asustado	\n"+
+"		Miedoso	\n"+
+"		Tímido	\n"+
+"		Cansado	\n"+
+"		Enojado	\n"+
+"		Caprichoso	\n"+
+"		Culpa	\n"+
+"		Tranquilo	\n"+
+"		Nervioso	\n"+
+"		Triste	\n"+
+"		Sorprendido	\n"+
+"	El cuerpo humano		\n"+
+"		El cuerpo humano	\n"+
+"		Boca	\n"+
+"		Pelo	\n"+
+"		Nariz	\n"+
+"		Hombro	\n"+
+"		Diente	\n"+
+"		Codo	\n"+
+"		Rodilla	\n"+
+"		Mano	\n"+
+"		Nena	\n"+
+"		Vagina	\n"+
+"		Cara	\n"+
+"		Cabeza	\n"+
+"		Ojos	\n"+
+"		Lengua	\n"+
+"		Oreja	\n"+
+"		Cuello	\n"+
+"		Panza	\n"+
+"		Brazo	\n"+
+"		Pene	\n"+
+"		Pierna	\n"+
+"		Nene	\n"+
+"		Cola	\n"+
+"		Espalda	\n"+
+"		Dedo	\n"+
+"		Uña	\n"+
+"		Caminar	\n"+
+"		Oler	\n"+
+"		Oir	\n"+
+"		Tocar	\n"+
+"		Ver	\n"+
+"		El hospital	\n"+
+"		Médico	\n"+
+"		Revisar	\n"+
+"		Enfermera	\n"+
+"		Oculista	\n"+
+"		Hacer análisis	\n"+
+"		Psicólogo	\n"+
+"		Anteojos	\n"+
+"		Audífono	\n"+
+"		Dentista	\n"+
+"		Fonoaudióloga	\n"+
+"		Implante coclear	\n"+
+"		Guardia	\n"+
+"		Sacar radiografía	\n"+
+"	La salud		\n"+
+"		La salud	\n"+
+"		Remedio	\n"+
+"		Curar	\n"+
+"		Respirar	\n"+
+"		Mejorar	\n"+
+"		Crecer	\n"+
+"		Dolor	\n"+
+"		Fiebre	\n"+
+"		Inyección	\n"+
+"		Termómetro	\n"+
+"		Enfermo	\n"+
+"		Vomitar	\n"+
+"		Sano	\n"+
+"		Lastimado	\n"+
+"		Mareado	\n"+
+"	Los animales		\n"+
+"		El zoológico	\n"+
+"		Oso	\n"+
+"		Foca	\n"+
+"		Tortuga	\n"+
+"		Loro	\n"+
+"		Elefante	\n"+
+"		Ciervo	\n"+
+"		León	\n"+
+"		Mono	\n"+
+"		Víbora	\n"+
+"		Cocodrilo	\n"+
+"		Jirafa	\n"+
+"		Animales	\n"+
+"		del campo	\n"+
+"		Burro	\n"+
+"		Sapo	\n"+
+"		Gato	\n"+
+"		Ratón	\n"+
+"		Araña	\n"+
+"		Vaca	\n"+
+"		Caballo	\n"+
+"		Gallina	\n"+
+"		Conejo	\n"+
+"		Llama	\n"+
+"		Chancho	\n"+
+"		Cabra	\n"+
+"		Oveja	\n"+
+"		Pato	\n"+
+"	El campamento		\n"+
+"		El campamento	\n"+
+"		Pasto	\n"+
+"		Tierra	\n"+
+"		Pez	\n"+
+"		Mariposa	\n"+
+"		Piedra	\n"+
+"		Cielo	\n"+
+"		Río	\n"+
+"		Pájaro	\n"+
+"		Linterna	\n"+
+"		Lago	\n"+
+"		Mosquito	\n"+
+"		Árbol	\n"+
+"		Perro	\n"+
+"		Carpa	\n"+
+"		Fuego	\n"+
+"		Montañas	\n"+
+"		Pescar	\n"+
+"		Bote	\n"+
+"	Las profesiones		\n"+
+"		Profesionales	\n"+
+"		Abogado	\n"+
+"		Chofer	\n"+
+"		Electricista	\n"+
+"		Pintor	\n"+
+"		Chef	\n"+
+"		Carpintero	\n"+
+"		Plomero	\n"+
+"		Arquitecto	\n"+
+"		Trabajar	\n"+
+"		Arreglar	\n"+
+"		Materiales	\n"+
+"		Madera	\n"+
+"		Plástico	\n"+
+"		Metal	\n"+
+"	La playa		\n"+
+"		La playa	\n"+
+"		Sombrilla	\n"+
+"		Gorro	\n"+
+"		Balde	\n"+
+"		Palita	\n"+
+"		Malla de mujer	\n"+
+"		Malla de hombre	\n"+
+"		Vacaciones	\n"+
+"		Mar	\n"+
+"		Arena	\n"+
+"		Barco	\n"+
+"	Las diferencias		\n"+
+"		Las diferencias	\n"+
+"		Adentro	\n"+
+"		Afuera	\n"+
+"		Anciano	\n"+
+"		Joven	\n"+
+"		Poco	\n"+
+"		Mucho	\n"+
+"		Adelante	\n"+
+"		Atrás	\n"+
+"		Abajo	\n"+
+"		Arriba	\n"+
+"		Sobre	\n"+
+"		Apurado	\n"+
+"		Despacio	\n"+
+"		Alrededor	\n"+
+"		Al lado	\n"+
+"		Corto	\n"+
+"		Largo	\n"+
+"		Verdad	\n"+
+"		Mentira	\n"+
+"		Mojado	\n"+
+"		Seco	\n"+
+"		Entrada	\n"+
+"		Salida	\n"+
+"		Educado	\n"+
+"		Mal educado	\n"+
+"		Lindo	\n"+
+"		Feo	\n"+
+"		Diferente	\n"+
+"		Igual	\n"+
+"		Grande	\n"+
+"		Chico	\n"+
+"		Bueno	\n"+
+"		Malo	\n"+
+"		Antiguo	\n"+
+"		Nuevo	\n"+
+"		Fuerte	\n"+
+"		Débil	\n"+
+"		Cerca	\n"+
+"		Lejos	\n"+
+"		Pesado	\n"+
+"		Liviano	\n"+
+"		Blando	\n"+
+"		Duro	\n"+
+"		Alto	\n"+
+"		Bajo	\n"+
+"	¿Dónde vivo?		\n"+
+"		Argentina	\n"+
+"		Tucumán	\n"+
+"		Salta	\n"+
+"		Chaco	\n"+
+"		Jujuy	\n"+
+"		Catamarca	\n"+
+"		La rioja	\n"+
+"		Formosa	\n"+
+"		Córdoba	\n"+
+"		San Juan	\n"+
+"		Mendoza	\n"+
+"		San Luis	\n"+
+"		Neuquén	\n"+
+"		Rio Negro	\n"+
+"		Islas Malvinas	\n"+
+"		Provincias	\n"+
+"		Tierra del fuego	\n"+
+"		Buenos Aires	\n"+
+"		Misiones	\n"+
+"		Corrientes	\n"+
+"		Entre Ríos	\n"+
+"		La Pampa	\n"+
+"		Santiago del Estero	\n"+
+"		Santa Fé	\n"+
+"		Santa Cruz	\n"+
+"		Chubut	\n"+
+"		Antártida Argentina	\n"+
+"		Aborigen	\n"+
+"		Pueblo	\n"+
+"		Ciudad	\n"+
+"		Viajar	\n"+
+"		Vivir	\n"+
+"		Extranjero	\n"+
+"		Norte	\n"+
+"		Sur	\n"+
+"		Este	\n"+
+"		Oeste	\n"+
+"		Otros países	\n"+
+"		Mundo	\n"+
+"		Uruguay	\n"+
+"		Bolivia	\n"+
+"		Brasil	\n"+
+"		Paraguay	\n"+
+"		Chile	";
+  var categoriesByLine = categoriesRaw.split("\n");
+  let categoriesIndex = {};
+  categoriesIndex.categories = [];
+  let currentCategory;
+  for (let i = 0; i < categoriesByLine.length; i++) {
+    if (categoriesByLine[i][0] === '	' && categoriesByLine[i][1] !== '	') {
+      currentCategory = {};
+      currentCategory.name_es = categoriesByLine[i].split("\t").join("").toUpperCase();
+      currentCategory.icon = "require(\"./res/icon/" +
+        categoriesByLine[i].split("\t").join("").
+        split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("á").join("a").
+        split("é").join("e").
+        split("í").join("i").
+        split("ó").join("o").
+        split("ñ").join("n").
+        split("ú").join("u").toLowerCase() + ".png\")";
+      currentCategory.videos = [];
+      categoriesIndex.categories.push(currentCategory);
+    } else {
+      currentVideo = {};
+      if (currentCategory.name_es === 'ALFABETO DACTILOLÓGICO') {
+        let name = categoriesByLine[i].split("\t").join("");
+        if (name === "Alfabeto dactilológico") {
+          currentVideo.name_es = name.toUpperCase();
+        } else {
+          currentVideo.name_es = name;
+        }
+      }
+      else {
+        currentVideo.name_es = categoriesByLine[i].split("\t").join("").toUpperCase();
+      }
+      currentVideo.search_name_es = currentVideo.name_es.split("Á").join("A").
+      split("É").join("E").
+      split("Í").join("I").
+      split("Ó").join("O").
+      split("Ú").join("U").toUpperCase();
+      if (currentCategory.name_es === 'ALFABETO DACTILOLÓGICO') {
+        if (currentVideo.name_es === 'Ññ') {
+          currentVideo.image = "require(\"./res/image/enie.png\")";
+        } else if (currentVideo.name_es.length === 2) {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es[0].toLowerCase() + ".png\")";
+        } else if (currentVideo.name_es.length === 4) {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.substring(0, 2).toLowerCase() + ".png\")";
+        } else {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+          split("Ñ").join("N").
+          split("Á").join("A").
+          split("É").join("E").
+          split("Í").join("I").
+          split("Ó").join("O").
+          split("Ú").join("U").toLowerCase() + ".png\")";
+        }
+      } else if (currentCategory.name_es === 'LOS ALIMENTOS') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'PRESENTÁNDONOS') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA FAMILIA') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'EL CALENDARIO') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'EL CAMPAMENTO') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LOS ANIMALES') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA PLAYA') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LOS NÚMEROS') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA TECNOLOGÍA') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === '¿QUÉ HORA ES?') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA ROPA') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LOS COLORES') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA CASA') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'PASEANDO') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA ESCUELA') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LAS PROFESIONES') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'EL CUMPLEAÑOS') {
+        currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LOS SENTIMIENTOS') {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+          split("¿").join("").
+          split("?").join("").
+          split("Ñ").join("N").
+          split("Á").join("A").
+          split("É").join("E").
+          split("Í").join("I").
+          split("Ó").join("O").
+          split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'EL CUERPO HUMANO') {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+          split("¿").join("").
+          split("?").join("").
+          split("Ñ").join("N").
+          split("Á").join("A").
+          split("É").join("E").
+          split("Í").join("I").
+          split("Ó").join("O").
+          split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LA SALUD') {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+          split("¿").join("").
+          split("?").join("").
+          split("Ñ").join("N").
+          split("Á").join("A").
+          split("É").join("E").
+          split("Í").join("I").
+          split("Ó").join("O").
+          split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === 'LAS DIFERENCIAS') {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+          split("¿").join("").
+          split("?").join("").
+          split("Ñ").join("N").
+          split("Á").join("A").
+          split("É").join("E").
+          split("Í").join("I").
+          split("Ó").join("O").
+          split("Ú").join("U").toLowerCase() + ".png\")";
+      } else if (currentCategory.name_es === '¿DÓNDE VIVO?') {
+          currentVideo.image = "require(\"./res/image/" + currentVideo.name_es.split(" ").join("-").
+          split("¿").join("").
+          split("?").join("").
+          split("Ñ").join("N").
+          split("Á").join("A").
+          split("É").join("E").
+          split("Í").join("I").
+          split("Ó").join("O").
+          split("Ú").join("U").toLowerCase() + ".png\")";
+      } else {
+        currentVideo.image = "require(\"./res/image/video-icon.png\")";
+      }
+
+      if (currentVideo.name_es === 'NARANJA') {
+        if (currentCategory.name_es === 'LOS ALIMENTOS') {
+          currentVideo.image = "require(\"./res/image/naranja-fruta.png\")";
+          currentVideo.video = "require(\"./res/video/naranja-fruta.mp4\")";
+        } else {
+          currentVideo.image = "require(\"./res/image/naranja-color.png\")";
+          currentVideo.video = "require(\"./res/video/naranja-color.mp4\")";
+        }
+      } else if (currentVideo.name_es === 'MENOS...') {
+          currentVideo.image = "require(\"./res/image/menos.png\")";
+          currentVideo.video = "require(\"./res/video/menos.mp4\")";
+      } else if (currentVideo.name_es === 'PAPÁ') {
+        currentVideo.image = "require(\"./res/image/papa-familiar.png\")";
+        currentVideo.video = "require(\"./res/video/papa-familiar.mp4\")";
+      } else if (currentVideo.name_es === '... Y MEDIA') {
+        currentVideo.image = "require(\"./res/image/y-media.png\")";
+        currentVideo.video = "require(\"./res/video/y-media.mp4\")";
+      } else if (currentVideo.name_es === 'ELLOS / ELLAS') {
+        currentVideo.image = "require(\"./res/image/ellos-ellas.png\")";
+        currentVideo.video = "require(\"./res/video/ellos-ellas.mp4\")";
+      } else if (currentVideo.name_es === 'ÉL / ELLA') {
+        currentVideo.image = "require(\"./res/image/el-ella.png\")";
+        currentVideo.video = "require(\"./res/video/el-ella.mp4\")";
+      } else if (currentCategory.name_es === 'ALFABETO DACTILOLÓGICO') {
+        if (currentVideo.name_es === 'Ññ') {
+          currentVideo.video = "require(\"./res/video/enie.mp4\")";
+        } else if (currentVideo.name_es.length === 2) {
+          currentVideo.video = "require(\"./res/video/" + currentVideo.name_es[0].toLowerCase() + ".mp4\")";
+        } else if (currentVideo.name_es.length === 4) {
+          currentVideo.video = "require(\"./res/video/" + currentVideo.name_es.substring(0, 2).toLowerCase() + ".mp4\")";
+        }
+      } else {
+        currentVideo.video = "require(\"./res/video/" + currentVideo.name_es.split(" ").join("-").
+        split("¿").join("").
+        split("?").join("").
+        split("Ñ").join("N").
+        split("Á").join("A").
+        split("É").join("E").
+        split("Í").join("I").
+        split("Ó").join("O").
+        split("Ú").join("U").toLowerCase() + ".mp4\")";
+      }
+
+      currentCategory.videos.push(currentVideo);
+    }
+  }
+  console.log(JSON.stringify(categoriesIndex, null, "\t")
+                .split("\"require(\\").join("require(")
+                .split(".png\\").join(".png")
+                .split(".mp4\\").join(".mp4")
+                .split("g\")\"").join("g\")")
+                .split("4\")\"").join("4\")")
+                .split("\t").join("  ") + ";"
+  );
+}
+</script>
+
+</body>
+</html>
